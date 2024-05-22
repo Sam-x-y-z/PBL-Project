@@ -101,3 +101,10 @@ ENV/
 .mypy_cache/
 
 .DS_Store
+
+
+*/KTS/assets/
+*/KTS/output*
+*.pth
+*.json
+*.rar

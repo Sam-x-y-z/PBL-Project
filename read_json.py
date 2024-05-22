@@ -10,6 +10,8 @@ with open('output.json') as f:
     
 print("Number of videos: ", len(data))
 print("Number of Segments: ", sum([len(data[i]["clips"]) for i in range(len(data))]))
+
+print(data[0]["clips"][0]['features'])
 # data_driver = Prepare_dataset()
 
 # data_driver.get_annotations(data[0]["video"],1)
